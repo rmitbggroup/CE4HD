@@ -1,0 +1,9 @@
+(1) use "./run_mrce_preparation.sh fasttext 128" to prepare the training and testing data
+- the first parameter is dataset name
+- the second is the dimension of each high-dimensional object in the dataset
+
+(2) use "python train.py fasttext fasttext_model.bin 128 0"
+- the first parameter is the dataset name
+- the second one is the path to store the trained model
+- the third is the dimension of each high-dimensional object in the dataset
+- the forth is which GPU to be used for training
