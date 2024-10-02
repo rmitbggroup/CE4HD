@@ -4,6 +4,6 @@
 - fasttext:https://drive.google.com/open?id=1FuWBcNxT_wO5cSCTJXJ6a6JjfD_vhfSb
 - youtube:https://drive.google.com/open?id=1vn30JLdqlRf5qW62XussqpnnnwamXIwH
 (2) then copy the dataset into ./data/{datase name}/ directory and name the file as `{dataset_name}_originalData.npy'
-- for example, for fasttext dataset, after we do the things above and we get one file ./data/fasttext/fasttext__originalData.npy
+- for example, for fasttext dataset, after we do the things above and we get one file ./data/fasttext/fasttext_originalData.npy
 (3) first following the instructions (readme) in data_processing directory to preprocess the dataset 
 (4) you can following the instructions (readme) in srce and mrce to run our program.
